@@ -5,6 +5,7 @@
     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 34%);
     color:#1d7dea;
     font: normal 16px/24px Nunito,sans-serif;
+    height:100px;
 }
 
 .homeMainContainer{
@@ -27,3 +28,19 @@
     width:84%;
 }
 
+.navheader img{
+    height:70px;
+    width:70px;
+    margin-right: 100px;
+    border-radius: 50px;
+    border: 1px solid #1d7dea;
+}
+
+.navheader h1{
+    height:70px;
+    width:50%;
+    display:flex;
+    /* justify-content: center; */
+    align-items:center;
+    /* border: 1px solid #1d7dea; */
+}
