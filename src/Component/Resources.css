@@ -1,0 +1,188 @@
+.cont-res{
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center; */
+    align-items:center;
+    /* border:1px solid red; */
+    width:100%;
+    margin-top: 20px;
+    font: normal 16px/24px Nunito,sans-serif;
+    background-color: rgb(247, 247, 247);
+
+}
+.input-box{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    /* border:1px solid red; */
+    width:auto;
+    padding:30px;
+
+}
+.heading-input{
+    padding:15px;
+    min-width:800px;
+    max-width:1200px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px 4px 2px rgb(0 0 0 / 34%);
+    background-color: #fafafa;
+    color: #666;
+    min-height: 30px;
+    max-height:60px;
+
+}
+.main-input{
+    color: #666;
+    padding:15px;
+    background-color: #fafafa;
+    border: none;
+    box-shadow: 2px 2px 4px 2px rgb(0 0 0 / 34%);
+    min-width:600px;
+    max-width:1200px;
+    min-height:100px;
+    max-height:1500px;
+    margin:20px;
+}
+
+.input-btn{
+    background-color: rgb(255, 71, 108);
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgb(50 50 93 / 10%) 0 0 0 1px inset, rgb(50 50 93 / 10%) 0 2px 5px 0, rgb(0 0 0 / 7%) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+    font-size: 100%;
+    height: 44px;
+    line-height: 1.15;
+    margin-left: 20px ;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 40%;
+    max-width: 300px;
+}
+.resline{
+    border:1px solid #666;
+    width:50%;
+    background:#666;
+}
+.inputwrapper{
+    /* border:2px solid red; */
+    width: 90%;
+    height:auto;
+    margin-top:30px;
+    background-color: rgb(247, 247, 247);
+    width: 85%;
+    margin-top: 20px;
+    box-shadow: 0px 7px 7px 0px #764abc40;
+    background-color: rgb(247, 247, 247);
+    padding: 30px;
+    font: normal 16px/24px Nunito,sans-serif;
+    border-radius: 10px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.inpCard{
+    height: 300px;
+    width:300px;
+    /* border:2px solid red; */
+    margin:20px;
+    box-shadow: 2px 2px 4px 2px rgb(0 0 0 / 34%);
+    border-radius: 10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+
+    width: 250px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 7px 7px 0px #764abc40;
+    height: auto;
+    margin: 20px;
+    padding: 30px;
+    font: normal 16px/24px Nunito,sans-serif;
+}
+.inp20{
+    height:30%;
+    /* border:2px solid red; */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:90%;
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 34%);
+    border-radius: 10px;
+
+
+    box-shadow: 2px 2px 2px 2px #764abc40;
+    width: 100%;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    justify-content: center;
+
+}
+.inp60{
+    height:55%;
+    /* border:2px solid red; */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+
+
+}
+.inp20f{
+    height:15%;
+    /* border:2px solid red; */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+
+}
+.delete-btn{
+    background-color: rgb(255, 71, 108);
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgb(50 50 93 / 10%) 0 0 0 1px inset, rgb(50 50 93 / 10%) 0 2px 5px 0, rgb(0 0 0 / 7%) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+    font-size: 100%;
+    height: 30px;
+    line-height: 1.15;
+    margin-left: 20px ;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 40%;
+}

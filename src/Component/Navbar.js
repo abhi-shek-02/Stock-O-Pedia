@@ -5,7 +5,9 @@ const Navbar = () => {
     return (
         <nav className="nav-main">
             <div className="links-container">
-                <NavLink to='/' className="same1">Home</NavLink>
+                <NavLink to='/' className="same1">HOME</NavLink>
+                <NavLink to='/news' className="same1">NEWS</NavLink>
+                <NavLink to='/resources' className="same1">ARTICLES</NavLink>
                 <NavLink to='/nifty50' className="same1">NIFTY 50</NavLink>
                 <NavLink to='/niftynext50' className="same1">NIFTY NEXT 50</NavLink>
                 <NavLink to='/nifty500' className="same1">NIFTY 500</NavLink>

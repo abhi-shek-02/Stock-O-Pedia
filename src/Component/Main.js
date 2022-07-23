@@ -16,6 +16,8 @@ import NiftyMetal from './NiftyMetal'
 import NiftyInfra from './NiftyInfra'
 import NiftyMedia from './NiftyMedia'
 import NiftyPharma from './NiftyPharma'
+import News from './News'
+
 import './Main.css'
 const Main = () => {
   return (
@@ -101,6 +103,11 @@ const Main = () => {
       <br/>
       <br/>
       <NiftyPharma />
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <News />
       <br/>
       <br/>
       <br/>

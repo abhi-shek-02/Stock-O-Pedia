@@ -79,7 +79,7 @@ const AllDetails = ({ props }) => {
           <p>Total Traded Volume</p>
         </div>
         <div className="Alldetails-cards">
-          <h2>{lastUpdateTime?.slice(1, 11)}</h2>
+          <h2>{lastUpdateTime?.slice(0, 11)}</h2>
           <p>Last Updated Time</p>
         </div>
       </div>

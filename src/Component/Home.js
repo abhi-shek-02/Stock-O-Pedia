@@ -21,14 +21,16 @@ import NiftyMedia from './NiftyMedia'
 import NiftyPharma from './NiftyPharma'
 import './Home.css'
 import icon from '../Image/myicon.png'
-
+import News from './News.js'
+import Resources from './Resources.js'
 
 const Home = () => {
   return (
     <div>
       <div className="navheader">
-        <img src={icon} alt="" />
+        <img src={icon} alt="icon" />
         <h1>Stock-O-Pedia</h1>
+
       </div>
       <div className="homeMainContainer">
         <div className="homeMainContainer20">
@@ -37,6 +39,8 @@ const Home = () => {
         <div className="homeMainContainer80">
           <Routes >
             <Route path='/' element={<Main />} />
+            <Route path='/news' element={<News />} />
+            <Route path='/resources' element={<Resources />} />
             <Route path='nifty50' element={<Nifty50 />} />
             <Route path='niftynext50' element={<Niftynext50 />} />
             <Route path='nifty500' element={<Nifty500 />} />

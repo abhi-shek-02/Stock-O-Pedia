@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&family=Nunito:wght@300;400&display=swap');
+.cont-news{
+    display:flex;
+    font-family: 'Baloo Tamma 2', cursive;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font: normal 16px/24px Nunito,sans-serif;
+
+}
+.header-news{
+    /* border:1px solid red; */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width: 50%;
+    font: normal 16px/24px Nunito,sans-serif;
+
+}
+.lineu{
+    width: 50%;
+    border:1px solid #405cf5;
+    background:#405cf5;
+    font: normal 16px/24px Nunito,sans-serif;
+
+}
+.news-box{
+    width: 85%;
+    margin-top: 20px;
+    box-shadow: 0px 7px 7px 0px #764abc40;
+    background-color: rgb(247, 247, 247);
+    padding:30px;
+    display: flex;
+    flex-wrap:wrap;
+    /* border:1px solid red; */
+    font: normal 16px/24px Nunito,sans-serif;
+
+}
